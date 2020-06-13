@@ -1,10 +1,7 @@
 import React from 'react';
-import { View } from 'react-native';
 
 // import { Container } from './styles';
 
-const Wallet = () => {
-  return <View />;
-}
-
-export default Wallet;
+export default function Wallet() {
+  return <Text>Wallet</Text>
+};
